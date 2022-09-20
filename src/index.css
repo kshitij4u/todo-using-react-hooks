@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  background-color: gainsboro;
+}
+
+.wrapper {
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-and-todo-box {
+  width: 500px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button {
+  height: 45px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+}
+
+.form-and-todo-box .input-and-button input {
+  width: 92%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-indent: 2px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.form-and-todo-box .input-and-button .button {
+  width: 10%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-and-todo-box .input-and-button .button.edit {
+  width: auto;
+  padding: 0px 10px;
+}
+
+.form-and-todo-box .input-and-button .button button {
+  outline: none;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: transparent;
+  color: #fff;
+}
+
+.todo {
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.todo input {
+  margin-right: 5px;
+}
+
+.todo span {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo .delete {
+  display: flex;
+  cursor: pointer;
+}
